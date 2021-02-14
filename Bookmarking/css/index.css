@@ -1,0 +1,48 @@
+.article-img {
+    float: right;   
+    margin-top: 20px; 
+}
+
+#sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #555; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#sidenav ul li {
+    background-color: #999;
+}
+
+/* The navigation menu links */
+#sidenav a {
+  padding: 8px 8px 8px 8px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+#sidenav a:hover {
+    background-color: #3b3b3b;
+}
+
+#sidenav li:hover {
+    background-color: #3b3b3b;
+}
+
+/* Position and style the close button (top right corner) */
+#sidenav .closebtn {
+  position: absolute;
+  top: 8px;
+  font-size: 30px;
+  margin-left: 0px;
+}
