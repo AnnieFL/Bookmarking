@@ -1,3 +1,7 @@
-body{
-    
+.article-img {
+    float: right;   
+    margin-top: 20px; 
+  }
+.activated {
+    background-color: #222;
 }
