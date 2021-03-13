@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/perfil.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -19,24 +18,24 @@
 <div class="navbar-fixed">
     <nav class="grey darken-3">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo right"><img src="img/Resised.png" alt="SIASS" srcset=""></a>
+        <a class="brand-logo right"><img src="img/placeholder-logo.png" class="right" style="width: 40%;" alt="Logo" srcset=""></a>
             <ul id="nav-mobile" class="left hide-on-med-and-down grey darken-3">
-                <li style="width: 54px;"><a data-target="slide-out" class="sidenav-trigger"
+                <li style="width: 9.5%;"><a data-target="slide-out" class="sidenav-trigger"
                         style="display:block !important;margin-left: 0px;"><i class="material-icons">menu</i></a></li>
                 <li><span class="z-depth-0">
                         <div class="nav-wrapper grey darken-2" style="height: 64px;">
                             <form>
                                 <div class="input-field">
-                                    <input id="search" type="search" style="width:250px; height: 63px;" required>
+                                    <input id="search" type="search" style="width:75.5%; height: 100%;" required>
                                     <label class="label-icon" for="search"><i class="material-icons">search</i></label>
                                 </div>
                             </form>
                         </div>
                     </span>
                 </li>
-                <li><a href="index.html" style="font-size:20px">Feed</a></li>
-                <li><a href="cronograma.html" style="font-size:20px">Cronograma</a></li>
-                <li><a class="activated" style="font-size:20px">Perfil</a></li>
+                <li><a href="index.html" style="font-size:1.25em">Feed</a></li>
+                <li><a href="cronograma.html" style="font-size:1.25em">Cronograma</a></li>
+                <li><a class="activated" style="font-size:1.25em">Perfil</a></li>
             </ul>
         </div>
     </nav>
@@ -57,8 +56,25 @@
     <li><a style="color: white;" href="#">Login</a></li>
 </ul>
 
-    <div class="container">
+<div class="container">
+    <br><br><br>
+    <div class="row">
+        <div>
+            <img src="img/profile-placeholder.png" alt="profilepicture" height="100px">
+            <span class= "right-align" style="font-size: 1.7em; "><b>Nome Sobrenome</b></span>
+            <a href="" class="material-icons right valign-wrapper" style="font-size:3em; color: #949494;"><br>message</a>
+            <div class="divider"></div>
+        </div>
+        <div class="col s6"> 6-columns (one-half)
+        </div>
+        <div class="col s6">6-columns (one-half)</div>
     </div>
+</div>
+
+<!--footer-->
+<div class="main-footer grey darken-3 z-depth-1">
+    <div class="divider" style="color: #949494;"></div>
+</div>
 
     <script src="js/materialize.min.js"></script>
     <script src="js/perfil.js"></script>
