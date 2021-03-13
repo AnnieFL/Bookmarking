@@ -6,3 +6,6 @@
     background-color: #222;
 }
 
+img {
+  max-width: 100%;
+}
